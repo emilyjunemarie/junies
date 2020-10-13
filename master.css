@@ -1,0 +1,93 @@
+  @import url("https://use.typekit.net/ozr4riq.css");
+  @import url("https://use.typekit.net/cjl6yqu.css");
+  @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+  body {
+    background-image: url('./images/background.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+
+.headings {
+    font-family: brush-script-std, sans-serif;
+    font-size: 70pt;
+    color: pink;
+  }
+
+.info {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 16pt;
+  color: #4a4a4a;
+}
+
+.infotwo {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 40pt;
+  color: #4a4a4a;
+  text-underline-position: none;
+}
+
+  a:hover {
+  color: darkgrey;
+  text-decoration: none;
+}
+
+.navigation {
+  color: #4a4a4a;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20pt;
+  text-underline-position: none;
+}
+
+@media (max-width: 768px) {
+.element {
+display: none;
+}
+}
+
+@media (min-width: 769px) {
+.elementtwo {
+display: none;
+}
+}
+
+.title {
+  color: grey;
+  font-family: brush-script-std, sans-serif;
+  font-size: 60pt;
+}
+
+.line {
+  border-top: 10px dotted pink;
+  margin: 50px;
+}
+
+.pin {
+width: 612px;
+height: 180.5px;
+}
+
+.cardout {
+  border: 10px dotted white;
+  padding: 5px;
+}
+
+.fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
+.dark-blue-text {
+color: #0A38F5;
+}
+.dark-pink-text {
+color: #AC003A;
+}
+.dark-amber-text {
+color: #ff6f00;
+}
+.dark-teal-text {
+color: #004d40;
+}
